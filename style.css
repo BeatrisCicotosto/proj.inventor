@@ -1,0 +1,166 @@
+header{
+    background: #8c4646;
+    padding:10px 0 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color:blue;
+    transition: 1s color;
+    background: rgb(54, 195, 148);
+    padding: 15px;
+}
+
+h1:hover {
+    color:brown;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.espaco{
+    display: inline-block;
+    vertical-align:top;
+    width: 50%; /*delimitar tamanho poema*/
+    margin-right:10%;
+    font-size: 20px;
+    background:#b2a5a5;
+    text-align: center;
+    border-radius:50px;
+    border: 2px ridge black;
+}
+
+.titulo-poema{
+    font-size: 30px;
+    text-decoration: underline;
+    color:rgba(214, 81, 36, 0.847);
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.tamanho_imagem_poema {
+    width: 35%;
+    border: 8px double black;
+    border-radius:10px;
+}
+
+.fundo{
+    background:#8c4646; 
+}
+
+.titulo-subprincipal{
+    font-size: 30px;
+    padding: 50px 0 35px;
+    margin:0;
+}
+
+.posicoes{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;   
+    background:#8c4646; 
+}
+
+.posicao-texto{
+    width:25%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 18px;
+    color:azure;
+}
+
+.posicoes-imagem{
+    width:200px;
+    height: 200px;
+}
+
+.posicoes-imagem-aspirador{
+    padding-right: 20px;
+}
+
+.posicoes-titulo{
+    display: flex;
+    justify-content: space-around; 
+    color:azure; 
+}
+
+.titulo-bike{
+    padding-left: 55px;
+}
+
+.linha-container{
+    margin: 0 auto;
+    width:1200px;
+}
+
+.linha-vertical-um{
+    height: 125px;
+    border-right: 5px dashed;
+}
+
+.linha-vertical-dois{
+    height: 125px;
+    border-right: 5px dashed;
+}
+
+.linha-vertical-tres{
+    height: 125px;
+    border-right: 5px dashed;
+}
+
+.linha{
+    height: 5px;
+    margin: 0 auto;
+    width:1200px;
+    background-color: #b2a5a5;
+}
+
+form label, form legend{
+    display:block;
+    font-size: 22px;
+    margin: 20px 0 5px;
+}
+
+.fundo-form{
+    background:rgb(54, 195, 148);
+}
+
+.tamanho-formulario {
+    width: 940px;
+    margin: 0px auto;
+    padding: 40px;
+}
+
+.input-principal {
+    display: block;
+    width:500px;
+    margin: 0 0 20px 0;
+    padding: 15px 25px;
+}
+
+.enviar-formulario{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color:blue;
+    color:azure;
+    transition: 1s background;
+    border: dashed;
+    cursor: pointer;
+}
+
+.enviar-formulario:hover{
+    background:rgb(21, 41, 129);
+}
+
+footer {
+    text-align: center;
+    background: #947373;
+    padding: 10px;
+}
